@@ -56,7 +56,7 @@ export function TransitionCard({ id, title, subTitle, image }: Props) {
                     </Dialog.Close>
                   </div>
 
-                  <div className="flex gap-2 border mt-2 p-4 rounded-lg">
+                  <div className="grid [grid-template-columns:min-content_1fr] gap-2 border mt-2 p-4 rounded-lg">
                     <motion.img
                       src={`/assets/images/${image}`}
                       className="max-w-40"

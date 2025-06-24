@@ -15,7 +15,7 @@ export function Card({ id, title, image, onClick }: Props) {
       onClick={onClick}
       type="button"
     >
-      <div className="p-4 flex items-start gap-2">
+      <div className="p-4 grid [grid-template-columns:min-content_1fr] gap-2">
         <motion.img
           src={`/assets/images/${image}`}
           className="max-w-40"
